@@ -26,7 +26,7 @@ public class DaftarPageController {
     protected void registerAction() {
         try{
             thisStage = (Stage)initialPane.getScene().getWindow();
-            System.out.println("Hello");
+
         }catch (Exception e){
             System.out.println(e);
         }
@@ -35,7 +35,7 @@ public class DaftarPageController {
     @FXML
     protected void loginAction() {
         try{
-            System.out.println("Hello 2");
+
         }catch (Exception e){
             System.out.println(e);
         }
