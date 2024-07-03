@@ -21,13 +21,9 @@ public class HelloController implements Initializable {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
-
+    
     @FXML
-    private ImageView imageBank;
-    @FXML
-    private ImageView imageTf;
-    @FXML
-    private ImageView imageDepo;
+    private  ImageView imageSekul;
     @FXML
     private Pane initialPage;
     Stage thisStage;
@@ -37,9 +33,9 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        imageBank.setImage(new Image(getClass().getResourceAsStream("bank.jpeg")));
-        imageTf.setImage(new Image(getClass().getResourceAsStream("tf.jpg")));
-        imageDepo.setImage(new Image(getClass().getResourceAsStream("depo.jpg")));
+        imageSekul.setImage(new Image(getClass().getResourceAsStream("sekul.png")));
+
+
 
     }
 
