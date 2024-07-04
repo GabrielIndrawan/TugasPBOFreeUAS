@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e24c11bb-f4c1-40c6-9d5e-e763e33e2d47" name="Changes" comment="folderpertama">
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_11_07_[Changes]/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_11_07__Changes_.xml" afterDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/HelloController.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="e24c11bb-f4c1-40c6-9d5e-e763e33e2d47" name="Changes" comment="" />
+>>>>>>> 03b3a2b348c24c9e007a4e7e103c946800d18572
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -40,6 +45,8 @@
     &quot;accountId&quot;: &quot;7667007d-0f90-4be1-8832-b1a029ed271f&quot;
   }
 }</component>
+=======
+>>>>>>> 03b3a2b348c24c9e007a4e7e103c946800d18572
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,16 +65,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+<<<<<<< HEAD
     "JUnit.All in TugasPBOFreeUAS.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Naza",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/nazai/Documents/PBO",
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Naza",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nazai/Documents/TugasPBOFreeUAS-Naza",
+>>>>>>> 03b3a2b348c24c9e007a4e7e103c946800d18572
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="All in TugasPBOFreeUAS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TugasPBOFreeUAS" />
@@ -94,6 +109,8 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> 03b3a2b348c24c9e007a4e7e103c946800d18572
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,8 +122,11 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="folderpertama" />
     <option name="LAST_COMMIT_MESSAGE" value="folderpertama" />
   </component>
+=======
+>>>>>>> 03b3a2b348c24c9e007a4e7e103c946800d18572
 </project>
