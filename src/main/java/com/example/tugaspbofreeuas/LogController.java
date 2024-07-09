@@ -10,5 +10,5 @@ public class LogController {
     private TableView<Mahasiswa> tblHistori;
     @FXML
     private TableColumn<Mahasiswa,String> clmLog;
-    
+
 }
