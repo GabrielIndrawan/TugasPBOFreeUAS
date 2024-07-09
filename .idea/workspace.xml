@@ -4,6 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="e53235e1-ef23-4f89-bebd-dab0c7498e82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_11_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_11_07__Changes_.xml" afterDir="false" />
+=======
     <list default="true" id="8f358664-45aa-4617-8a6b-0b3bcbe133bb" name="Changes" comment="" />
     <list default="true" id="a1cfde84-6b41-471a-b27a-74f729068002" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
@@ -16,12 +20,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/depo.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/tf.jpg" beforeDir="false" />
+>>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,6 +37,7 @@
       </list>
     </option>
   </component>
+>>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,6 +49,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="2j0vkgj8GUp7gFD9jXWqBsyoiBT" />
+=======
   <component name="ProjectId" id="2iDx8H1bOJAtleg89YuA77de87E" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,10 +61,30 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2ijClaOJisWXRLHbXs6ycbsJthC" />
+>>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -68,6 +99,7 @@
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.tugaspbofreeuas.HelloApplication" />
       <module name="TugasPBOFreeUAS" />
+>>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,6 +108,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="e53235e1-ef23-4f89-bebd-dab0c7498e82" name="Changes" comment="" />
+      <created>1720536961536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720536961536</updated>
+=======
       <changelist id="f0982976-fd63-499a-9848-fdbd67c3ba06" name="Changes" comment="" />
       <created>1719038791530</created>
       <option name="number" value="Default" />
@@ -97,6 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719994750810</updated>
+>>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
     </task>
     <servers />
   </component>
