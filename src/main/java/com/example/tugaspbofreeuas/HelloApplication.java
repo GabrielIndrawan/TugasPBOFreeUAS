@@ -18,7 +18,6 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("daftar-page.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
->>>>>>> 916c3fcc8946a0815dce16458b21c79f247e2db1
         stage.setScene(scene);
         stage.setMinHeight(200);
         stage.setMinWidth(200);

@@ -85,9 +85,6 @@ public class HelloController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         imageSekul.setImage(new Image(getClass().getResourceAsStream("sekul.png")));
-
-
-
     }
 
     public void toMenu() {
