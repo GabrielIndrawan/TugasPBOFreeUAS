@@ -10,11 +10,6 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-<<<<<<< HEAD
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Selamat Datang Calon Mahasiswa Baru!");
-=======
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("daftar-page.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
@@ -24,7 +19,6 @@ public class HelloApplication extends Application {
         stage.setMaxWidth(600);
         stage.setMaxHeight(400);
         stage.show();
-
     }
 
     public static void main(String[] args) {

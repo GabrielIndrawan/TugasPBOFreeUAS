@@ -7,5 +7,7 @@ module com.example.tugaspbofreeuas {
 
     opens com.example.tugaspbofreeuas to javafx.fxml;
     exports com.example.tugaspbofreeuas;
+    exports com.example.tugaspbofreeuas.controllers;
+    opens com.example.tugaspbofreeuas.controllers to javafx.fxml;
 
 }

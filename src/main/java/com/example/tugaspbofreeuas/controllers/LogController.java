@@ -1,4 +1,4 @@
-package com.example.tugaspbofreeuas;
+package com.example.tugaspbofreeuas.controllers;
 
 import com.example.tugaspbofreeuas.models.Mahasiswa;
 import javafx.fxml.FXML;
