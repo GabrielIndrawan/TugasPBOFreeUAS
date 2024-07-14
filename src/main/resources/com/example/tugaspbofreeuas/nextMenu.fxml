@@ -5,14 +5,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane layoutX="9.0" prefHeight="82.0" prefWidth="581.0" style="-fx-background-color: #666699;">
          <children>
-            <Label layoutX="212.0" layoutY="32.0" text="Transfer/Bayar dan Deposito" textFill="#f7f2f2" />
+            <Label layoutX="195.0" layoutY="26.0" prefHeight="30.0" prefWidth="174.0" text="Histori Pendaftaran " textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
          </children>
       </AnchorPane>
       <BorderPane layoutX="200.0" layoutY="93.0" prefHeight="293.0" prefWidth="200.0">
@@ -20,7 +23,29 @@
             <TextField BorderPane.alignment="CENTER" />
          </center>
          <top>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Masukan Nominal" BorderPane.alignment="CENTER" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Profile" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Button mnemonicParsing="false" text="Next" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="9.0" layoutY="93.0" prefHeight="293.0" prefWidth="200.0">
+         <center>
+            <TextField BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Log/Riwayat" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Button mnemonicParsing="false" text="Next" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="400.0" layoutY="93.0" prefHeight="293.0" prefWidth="200.0">
+         <center>
+            <TextField BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Pendaftaran" BorderPane.alignment="CENTER" />
          </top>
          <bottom>
             <Button mnemonicParsing="false" text="Next" BorderPane.alignment="CENTER" />
