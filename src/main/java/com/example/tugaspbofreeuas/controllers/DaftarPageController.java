@@ -12,12 +12,7 @@ import java.net.URL;
 import java.sql.*;
 
 public class DaftarPageController {
-    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://127.0.0.1/penjualan";
-    static final String USER = "root";
-    static final String PASS = "";
-    static Connection conn;
-    static ResultSet rs;
+
     @FXML
     private Button daftar;
     @FXML

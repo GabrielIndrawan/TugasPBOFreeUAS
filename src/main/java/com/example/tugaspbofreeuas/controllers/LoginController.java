@@ -12,10 +12,18 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.net.URL;
+import java.sql.*;
 import java.util.ResourceBundle;
 
 public class LoginController implements Initializable {
 
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://127.0.0.1/uas_pbo";
+    static final String USER = "root";
+    static final String PASS = "";
+    static Connection conn;
+    static ResultSet rs;
+    static Statement stmt;
     @FXML
     private Button loginButton;
     @FXML
@@ -34,13 +42,32 @@ public class LoginController implements Initializable {
     private PasswordField enterPasswordfield;
 
 
+    @FXML
     public void LoginButtonOnAction(ActionEvent event){
 
-        if (emailTextField.getText().isBlank() == false && enterPasswordfield.getText().isBlank() == false){
-
-        }
-        else{
-            loginMessageLabel.setText("Coba masukkan akun yang benar");
+        try{
+            if (emailTextField.getText().isBlank() == false && enterPasswordfield.getText().isBlank() == false){
+                Class.forName(JDBC_DRIVER);
+                conn = DriverManager.getConnection(DB_URL,USER,PASS);
+                String sql = "SELECT password FROM akun_mahasiswa WHERE username = '"+emailTextField.getText()+"'";
+                stmt = conn.createStatement();
+                rs = stmt.executeQuery(sql);
+                rs.next();
+                if(enterPasswordfield.getText().equals(rs.getString("password")))
+                {
+                    System.out.println("Anda benar...");
+                }else{
+                    loginMessageLabel.setText("Password yang anda masukkan salah...");
+                }
+                conn.close();
+            }
+            else{
+                loginMessageLabel.setText("Coba masukkan akun yang benar");
+            }
+        }catch(SQLException e){
+            loginMessageLabel.setText("Akun tidak ditemukan...");
+        }catch(Exception e){
+            e.printStackTrace();
         }
     }
 

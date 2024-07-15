@@ -33,7 +33,7 @@
             <Label layoutX="26.0" layoutY="149.0" text="Email" />
             <Label layoutX="26.0" layoutY="191.0" text="Password" />
             <TextField fx:id="emailTextField" layoutX="92.0" layoutY="145.0" promptText="Email" />
-            <Button fx:id="loginButton" layoutX="51.0" layoutY="281.0" mnemonicParsing="false" text="Login" />
+            <Button fx:id="loginButton" layoutX="51.0" layoutY="281.0" mnemonicParsing="false" onAction="#LoginButtonOnAction" text="Login" />
             <Button fx:id="registerButton" layoutX="203.0" layoutY="281.0" mnemonicParsing="false" text="Register" />
             <Label fx:id="loginMessageLabel" layoutX="40.0" layoutY="236.0" prefHeight="18.0" prefWidth="274.0" textFill="#ea0000" />
             <PasswordField fx:id="enterPasswordfield" layoutX="92.0" layoutY="188.0" promptText="Masukkan Password" />
