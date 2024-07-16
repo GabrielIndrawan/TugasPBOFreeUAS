@@ -25,6 +25,8 @@ public class LoginController implements Initializable {
     static ResultSet rs;
     static Statement stmt;
     @FXML
+    private Button registerButton;
+    @FXML
     private Button loginButton;
     @FXML
     private Button tombolKembali;
@@ -49,14 +51,18 @@ public class LoginController implements Initializable {
             if (emailTextField.getText().isBlank() == false && enterPasswordfield.getText().isBlank() == false){
                 Class.forName(JDBC_DRIVER);
                 conn = DriverManager.getConnection(DB_URL,USER,PASS);
-                String sql = "SELECT password FROM akun_mahasiswa WHERE username = '"+emailTextField.getText()+"'";
+                String sql = "SELECT password, account_name, username FROM akun_mahasiswa WHERE username = '"+emailTextField.getText()+"'";
                 stmt = conn.createStatement();
                 rs = stmt.executeQuery(sql);
                 rs.next();
                 if(enterPasswordfield.getText().equals(rs.getString("password")))
                 {
-                    System.out.println("Anda benar...");
-                }else{
+                    thisStage = (Stage)thisPane.getScene().getWindow();
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/tugaspbofreeuas/nextMenu.fxml"));
+                    MenuController menuController = new MenuController(rs.getString("account_name"), rs.getString("username"));
+                    fxmlLoader.setController(menuController);
+                    thisStage.setScene(new Scene(fxmlLoader.load()));
+                }else {
                     loginMessageLabel.setText("Password yang anda masukkan salah...");
                 }
                 conn.close();
@@ -71,6 +77,7 @@ public class LoginController implements Initializable {
         }
     }
 
+    @FXML
     public void kembali(ActionEvent event){
 
         try{
@@ -78,6 +85,17 @@ public class LoginController implements Initializable {
             thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"))));
         }catch(Exception e){
 
+        }
+    }
+
+    @FXML
+    public void register(ActionEvent event){
+
+        try{
+            thisStage = (Stage)thisPane.getScene().getWindow();
+            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/hello-view.fxml"))));
+        }catch(Exception e){
+            System.out.println(e);
         }
     }
 
