@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:id="initialPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane fx:id="thisPane" layoutX="9.0" prefHeight="82.0" prefWidth="581.0" style="-fx-background-color: #666699;">
          <children>
@@ -22,10 +22,10 @@
       </AnchorPane>
       <BorderPane layoutX="200.0" layoutY="93.0" prefHeight="293.0" prefWidth="200.0">
          <top>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Profile" BorderPane.alignment="CENTER" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add Profile Info" BorderPane.alignment="CENTER" />
          </top>
          <bottom>
-            <Button fx:id="editButton" mnemonicParsing="false" text="Edit" BorderPane.alignment="CENTER" />
+            <Button fx:id="editButton" mnemonicParsing="false" onAction="#editButtonAction" text="Add Profile Info" BorderPane.alignment="CENTER" />
          </bottom>
          <center>
             <ImageView fx:id="editIconHolder" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
@@ -36,7 +36,7 @@
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Log/Riwayat" BorderPane.alignment="CENTER" />
          </top>
          <bottom>
-            <Button fx:id="logButton" mnemonicParsing="false" text="Buka Log" BorderPane.alignment="CENTER" />
+            <Button fx:id="logButton" mnemonicParsing="false" onAction="#logButtonAction" text="Buka Log" BorderPane.alignment="CENTER" />
          </bottom>
          <center>
             <ImageView fx:id="logIconHolder" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
@@ -47,7 +47,7 @@
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Pendaftaran" BorderPane.alignment="CENTER" />
          </top>
          <bottom>
-            <Button fx:id="informationButton" mnemonicParsing="false" text="Buka Informasi" BorderPane.alignment="CENTER" />
+            <Button fx:id="informationButton" mnemonicParsing="false" onAction="#informationButtonAction" text="Buka Informasi" BorderPane.alignment="CENTER" />
          </bottom>
          <center>
             <ImageView fx:id="informationIconHolder" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />

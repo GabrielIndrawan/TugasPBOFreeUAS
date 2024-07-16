@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53235e1-ef23-4f89-bebd-dab0c7498e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/edit-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/information-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/EditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/information-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/nextMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/nextMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>

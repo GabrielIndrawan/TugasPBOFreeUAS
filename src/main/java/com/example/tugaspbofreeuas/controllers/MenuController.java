@@ -36,8 +36,7 @@ public class MenuController implements Initializable{
     private ImageView informationIconHolder;
     @FXML
     private Pane initialPage;
-    private Stage getThisStage;
-    Stage thisStage;
+    private Stage thisStage;
 
     public String getStoredValue(){
         return storedValue;
@@ -72,8 +71,10 @@ public class MenuController implements Initializable{
     @FXML
     public void editButtonAction(ActionEvent event) {
         try{
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/tugaspbofreeuas/register.fxml"));
             thisStage = (Stage)initialPage.getScene().getWindow();
-            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"))));
+            fxmlLoader.setController(new EditController(storedEmail));
+            thisStage.setScene(new Scene(fxmlLoader.load()));
         }catch (Exception e){
             System.out.println(e);
         }
@@ -83,9 +84,19 @@ public class MenuController implements Initializable{
     public void toMenu() {
         try{
             thisStage = (Stage)initialPage.getScene().getWindow();
-            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("com/example/tugaspbofreeuas/pre"))));
+            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("com/example/tugaspbofreeuas/daftar-page.fxml"))));
         }catch (Exception e)
         {
+            System.out.println(e);
+        }
+    }
+
+    @FXML
+    public void informationButtonAction(ActionEvent event) {
+        try{
+            thisStage = (Stage)initialPage.getScene().getWindow();
+            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/information-page.fxml"))));
+        }catch (Exception e){
             System.out.println(e);
         }
     }
