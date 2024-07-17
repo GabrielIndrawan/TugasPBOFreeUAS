@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="494.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pbo.Registerform">
+<AnchorPane fx:id="thisPane" prefHeight="494.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="86.0" prefWidth="600.0" style="-fx-background-color: #808080;">
          <children>
@@ -54,6 +53,7 @@
       <TextField fx:id="tempatlhrField" layoutX="208.0" layoutY="146.0" prefHeight="26.0" prefWidth="294.0" promptText="Tempat Lahir" />
       <TextField fx:id="kelaminField" layoutX="208.0" layoutY="184.0" promptText="Pria/Wanita" />
       <TextField fx:id="alamatfield" layoutX="208.0" layoutY="265.0" prefHeight="26.0" prefWidth="294.0" promptText="Alamat Lengkap" />
-      <Button layoutX="223.0" layoutY="409.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Simpan Data" />
+      <Button fx:id="tombolSimpan" layoutX="225.0" layoutY="368.0" mnemonicParsing="false" onAction="#simpanData" prefHeight="26.0" prefWidth="150.0" text="Simpan Data" />
+      <Button fx:id="tombolKembali" layoutX="225.0" layoutY="414.0" mnemonicParsing="false" onAction="#kembali" prefHeight="25.0" prefWidth="150.0" text="Kembali" />
    </children>
 </AnchorPane>

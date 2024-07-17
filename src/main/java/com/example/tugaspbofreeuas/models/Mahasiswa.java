@@ -1,26 +1,26 @@
 package com.example.tugaspbofreeuas.models;
 
 public class Mahasiswa {
-    private String nama, nim;
+    private String username,message;
 
-    Mahasiswa(String nama, String nim){
-        this.nama = nama;
-        this.nim = nim;
+    public Mahasiswa(String username, String message){
+        this.username = username;
+        this.message = message;
     }
 
-    public String getNama() {
-        return nama;
+    public String getUsername() {
+        return username;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getNim() {
-        return nim;
+    public String getMessage() {
+        return message;
     }
 
-    public void setNim(String nim) {
-        this.nim = nim;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
