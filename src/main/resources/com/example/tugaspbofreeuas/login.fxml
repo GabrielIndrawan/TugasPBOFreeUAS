@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane fx:id="thisPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <left>
       <AnchorPane prefHeight="400.0" prefWidth="229.0" style="-fx-background-color: #808080;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fx:id="loginButton" fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../Images/Kampus%20Merdeka.png" />
                </image>
@@ -33,10 +33,11 @@
             <Label layoutX="26.0" layoutY="149.0" text="Email" />
             <Label layoutX="26.0" layoutY="191.0" text="Password" />
             <TextField fx:id="emailTextField" layoutX="92.0" layoutY="145.0" promptText="Email" />
-            <Button fx:id="loginButton" layoutX="51.0" layoutY="281.0" mnemonicParsing="false" text="Login" />
-            <Button fx:id="registerButton" layoutX="203.0" layoutY="281.0" mnemonicParsing="false" text="Register" />
+            <Button fx:id="loginButton" layoutX="51.0" layoutY="281.0" mnemonicParsing="false" onAction="#LoginButtonOnAction" text="Login" />
+            <Button fx:id="registerButton" layoutX="203.0" layoutY="281.0" mnemonicParsing="false" onAction="#register" text="Register" />
             <Label fx:id="loginMessageLabel" layoutX="40.0" layoutY="236.0" prefHeight="18.0" prefWidth="274.0" textFill="#ea0000" />
             <PasswordField fx:id="enterPasswordfield" layoutX="92.0" layoutY="188.0" promptText="Masukkan Password" />
+            <Button fx:id="tombolKembali" layoutX="129.0" layoutY="332.0" mnemonicParsing="false" onAction="#kembali" text="Kembali" />
          </children></AnchorPane>
    </right>
 </BorderPane>
