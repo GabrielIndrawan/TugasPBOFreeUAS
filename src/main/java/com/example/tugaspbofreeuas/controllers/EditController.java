@@ -13,7 +13,8 @@ import javafx.stage.Stage;
 import java.sql.*;
 
 public class EditController {
-    public EditController(String storedEmail){
+    public EditController(String storedValue,String storedEmail){
+        this.storedValue = storedValue;
         this.storedEmail = storedEmail;
     }
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
@@ -25,8 +26,9 @@ public class EditController {
     static Statement stmt;
 
     private String storedEmail;
+    private String storedValue;
     @FXML
-    private TextField namalengkapTextField, tempatlhrField, kelaminField, agamaField, alamatField, kodeposField;
+    private TextField namalengkapTextField, tempatlhrField, kelaminField, agamaField, alamatfield, kodeposField;
     @FXML
     private Button tombolSimpan, tombolKembali;
     @FXML
@@ -45,9 +47,14 @@ public class EditController {
             statement.setString(3,tempatlhrField.getText());
             statement.setString(4,kelaminField.getText().toLowerCase());
             statement.setString(5,agamaField.getText());
-            statement.setString(6,alamatField.getText());
+            statement.setString(6,alamatfield.getText());
             statement.setInt(7,Integer.valueOf(kodeposField.getText()));
             statement.execute();
+            conn.createStatement().execute("INSERT INTO log VALUES('"+storedEmail+"','menambahkan data informasi')");
+            thisStage = (Stage)thisPane.getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/tugaspbofreeuas/nextMenu.fxml"));
+            loader.setController(new MenuController(storedValue,storedEmail));
+            thisStage.setScene(new Scene(loader.load()));
             conn.close();
         }catch(Exception e){
             System.out.println(e);
@@ -57,7 +64,9 @@ public class EditController {
     public void kembali(){
         try{
             thisStage = (Stage)thisPane.getScene().getWindow();
-            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/log-page.fxml"))));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/tugaspbofreeuas/nextMenu.fxml"));
+            loader.setController(new MenuController(storedValue,storedEmail));
+            thisStage.setScene(new Scene(loader.load()));
         }catch (Exception e){
             System.out.println(e);
         }

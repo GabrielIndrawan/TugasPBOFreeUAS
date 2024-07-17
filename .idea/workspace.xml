@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53235e1-ef23-4f89-bebd-dab0c7498e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/EditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/information-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/InfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/DaftarPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/DaftarPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/models/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tugaspbofreeuas/models/Mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/daftar-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/daftar-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/information-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/information-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/log-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/log-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/nextMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/nextMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tugaspbofreeuas/register.fxml" afterDir="false" />
     </list>

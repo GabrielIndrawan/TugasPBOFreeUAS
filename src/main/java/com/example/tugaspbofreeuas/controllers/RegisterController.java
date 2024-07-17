@@ -68,7 +68,9 @@ public class RegisterController{
     public void kembali(){
         try{
             thisStage = (Stage)registrationPage.getScene().getWindow();
-            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"))));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"));
+            loader.setController(new DaftarPageController());
+            thisStage.setScene(new Scene(loader.load()));
         }catch(Exception e){
             System.out.println(e);
         }

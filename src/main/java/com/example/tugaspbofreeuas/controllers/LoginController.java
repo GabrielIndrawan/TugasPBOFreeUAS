@@ -82,9 +82,11 @@ public class LoginController implements Initializable {
 
         try{
             thisStage = (Stage)thisPane.getScene().getWindow();
-            thisStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"))));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setController(new DaftarPageController());
+            thisStage.setScene(new Scene(loader.load(getClass().getResource("/com/example/tugaspbofreeuas/daftar-page.fxml"))));
         }catch(Exception e){
-
+            e.printStackTrace();
         }
     }
 

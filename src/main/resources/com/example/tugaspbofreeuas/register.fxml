@@ -8,7 +8,7 @@
 
 <AnchorPane fx:id="thisPane" prefHeight="494.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane fx:id="thisPane" prefHeight="86.0" prefWidth="600.0" style="-fx-background-color: #808080;">
+      <AnchorPane prefHeight="86.0" prefWidth="600.0" style="-fx-background-color: #808080;">
          <children>
             <Label layoutX="146.0" layoutY="36.0" prefHeight="27.0" prefWidth="307.0" text="Form Pendaftaran Mahasiswa Baru">
                <font>

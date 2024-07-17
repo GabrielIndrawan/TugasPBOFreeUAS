@@ -37,6 +37,7 @@ public class DaftarPageController {
     protected void loginAction() {
         try{
             fxmlLoader.setLocation(getClass().getResource("/com/example/tugaspbofreeuas/login.fxml"));
+            fxmlLoader.setController(new LoginController());
             thisStage = (Stage)initialPane.getScene().getWindow();
             thisStage.setScene(new Scene(fxmlLoader.load()));
         }catch (Exception e){
